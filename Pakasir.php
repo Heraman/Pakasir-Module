@@ -75,8 +75,6 @@ class Pakasir
     public function getTransactionDetail($amount, $orderId)
     {
         $endpoint = "/api/transactiondetail";
-        
-        // Karena method GET, data dimasukkan ke query params
         $queryParams = [
             'project'   => $this->projectSlug,
             'amount'    => intval($amount),
