@@ -1,0 +1,14 @@
+{
+    "name": "nekraut/pakasir-module",
+    "type": "library",
+    "require-dev": {
+        "laravel/pint": "^1.27"
+    },
+    "license": "Apache 2.0",
+    "autoload": {
+        "psr-4": {
+            "Nekraut\\PakasirModule\\": "src/"
+        }
+    },
+    "require": {}
+}
